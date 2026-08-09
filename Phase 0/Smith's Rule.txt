@@ -1,0 +1,46 @@
+You have n jobs. On job i:
+Ti: Time needed to complete the job
+Wi: Penalty for keeping that job undone per unit of time
+
+Goal: Minimize C = sum of all Ti*wi for all i (Minimize penalty after all jobs are done)
+
+Solution:
+
+Let X and Y be events that have Tx, Wx and Ty, Wy as their time needed to complete the job and the penalty.
+
+Let T be the time that has passed before X and Y.
+
+Two possibilities: X happens before Y or Y happens before X
+
+Let 
+Cxy be the cost for a schedule where X happens before Y
+and
+Cyx be the cost for a schedule where Y happens before X
+
+X -> Y:
+
+Time at which X is done is T + Tx
+Time at which Y is done is T + Tx + Ty
+
+Cxy = (T + Tx) * Wx + (T + Tx + Ty) * Wy
+    = TWx + TxWx + TWy + TxWy + TyWy
+
+Y -> X:
+
+Time at which X is done is T + Ty + Tx
+Time at which Y is done is T + Ty
+
+Cyx = (T + Ty + Tx)*Wx + (T + Ty) * Wy
+    = TWx + TyWx + TxWx + TWy + TyWy
+
+A valid solution would be when 
+X -> Y
+and 
+Cxy <= Cyx
+TWx + TxWx + TWy + TxWy + TyWy <= TWx + TyWx + TxWx + TWy + TyWy
+TxWy <= TyWx
+
+Greedy Proof:
+
+Let O be the optimal solution and G be the greedy solution.
+

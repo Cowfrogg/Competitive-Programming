@@ -1,0 +1,1 @@
+{"name":"Local: Attention_resolve","url":"c:\\Users\\wanga\\cpWorkspace\\Re-solve\\Attention_resolve.cpp","tests":[{"id":1786084720388,"input":"12\nWEWEWEEEWWWE","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\wanga\\cpWorkspace\\Re-solve\\Attention_resolve.cpp","group":"local","local":true}
