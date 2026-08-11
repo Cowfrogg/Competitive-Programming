@@ -1,0 +1,1 @@
+{"name":"Local: Message-Route_resolve","url":"c:\\Users\\wanga\\cpWorkspace\\Re-solve\\Message-Route_resolve.cpp","tests":[{"id":1786489147894,"input":"5 5\n1 2\n1 3\n1 4\n2 3\n5 4","output":"3\n1 4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\wanga\\cpWorkspace\\Re-solve\\Message-Route_resolve.cpp","group":"local","local":true}
