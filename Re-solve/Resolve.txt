@@ -81,3 +81,8 @@ Re-solve date:
 Solve date: 2026-08-09
 Time complexity:
 Re-solve date:
+
+-Problem CSES Problemset Array Division 
+Solve date: 2026-08-11
+Time complexity: O(n log n)
+Re-solve date:
