@@ -1,0 +1,1 @@
+{"name":"Local: cordcompression_resolve","url":"c:\\Users\\wanga\\cpWorkspace\\Re-solve\\cordcompression_resolve.cpp","tests":[{"id":1786654214302,"input":"5\n3\n3\n1\n6\n1","output":"1\n1\n0\n2\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\wanga\\cpWorkspace\\Re-solve\\cordcompression_resolve.cpp","group":"local","local":true}
