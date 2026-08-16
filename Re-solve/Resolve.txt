@@ -9,9 +9,7 @@ Solve date:
 Time complexity:
 Re-solve date:
 
-
 ----------------------------- RESOLVED -----------------------------
-
 
 -Problem AtCoder ARC098 C - Attention
 Solve date: 2026-07-31
@@ -85,4 +83,7 @@ Re-solve date: 2026-08-15
 
 ----------------------------- TO BE RESOLVED -----------------------------
 
-GROS CACA
+-Problem Codeforces 701C They Are Everywhere
+Solve date: 2026-08-16
+Time complexity: O(n) or O(n log n)
+Re-solve date:
