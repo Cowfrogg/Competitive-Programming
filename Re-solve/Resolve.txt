@@ -63,24 +63,24 @@ Solve date: 2026-08-06
 Time complexity: O(q + n log n)
 Re-solve date: 2026-08-14
 
------------------------------ TO BE RESOLVED -----------------------------
-
 -Problem AtCoder ARC098 C - Attention
 Solve date: 2026-08-07
 Time complexity: O(n)
-Re-solve date:
+Re-solve date: 2026-08-15
 
 -Problem Atcoder C - Rorder cards
 Solve date: 2026-08-08
 Time complexity:
-Re-solve date:
+Re-solve date: 2026-08-15
 
 -Problem Atcoder C - Snuke Festival
 Solve date: 2026-08-09
 Time complexity:
-Re-solve date:
+Re-solve date: 2026-08-15
 
 -Problem CSES Problemset Array Division 
 Solve date: 2026-08-11
 Time complexity: O(n log n)
-Re-solve date:
+Re-solve date: 2026-08-15
+
+----------------------------- TO BE RESOLVED -----------------------------
