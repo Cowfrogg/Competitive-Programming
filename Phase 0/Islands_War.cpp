@@ -40,9 +40,8 @@ void solve() {
 
         if (last < a){
             ans++; 
+            last = b - 1; 
         }
-
-        last = b - 1; 
     }
 
     cout << ans << endl;
