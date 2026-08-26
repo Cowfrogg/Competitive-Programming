@@ -1,0 +1,1 @@
+{"name":"Local: Room_Allocation","url":"c:\\Users\\wanga\\cpWorkspace\\Room_Allocation.cpp","tests":[{"id":1787714382229,"input":"3\n1 2\n2 4\n4 4","output":"2\n1 2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\wanga\\cpWorkspace\\Room_Allocation.cpp","group":"local","local":true}

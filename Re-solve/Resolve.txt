@@ -87,3 +87,8 @@ Re-solve date: 2026-08-15
 Solve date: 2026-08-16
 Time complexity: O(n) or O(n log n)
 Re-solve date:
+
+-Problem CSES problemset Room Allocation
+Solve date: 2026-08-25
+Time complexity: O(n) 
+Re-solve date:
