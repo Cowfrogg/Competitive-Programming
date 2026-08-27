@@ -24,8 +24,6 @@ void solve() {
     string s;
     cin >> n >> s;
 
-    int distinct = 0;
-
     set<char> count;  
 
     for (int i = 0; i < n; i++){
@@ -34,18 +32,29 @@ void solve() {
 
     int k = count.size(); 
 
-    int l = 0, ans = 0;
+    int l = 0, ans = INT_MAX;
 
-    set<char> m; 
+    map<char, int> m; 
+    int distinct = 0;
 
     for (int r = 0; r < n; r++){
-        m.insert(s[r]);
-
-        while(l < r && m.size() == k){
-            l++;
+        if (m[s[r]] == 0){
+            distinct++; 
         }
 
-        ans = max(r - l + 1, ans);
+        m[s[r]]++; 
+
+        while(distinct == k){
+            ans = min(ans, r - l + 1); 
+
+            m[s[l]]--;
+
+            if (m[s[l]] == 0){
+                distinct--;
+            }
+
+            l++; 
+        } 
     }
 
     cout << ans << endl;

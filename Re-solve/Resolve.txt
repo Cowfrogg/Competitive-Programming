@@ -81,12 +81,12 @@ Solve date: 2026-08-11
 Time complexity: O(n log n)
 Re-solve date: 2026-08-15
 
------------------------------ TO BE RESOLVED -----------------------------
-
 -Problem Codeforces 701C They Are Everywhere
 Solve date: 2026-08-16
 Time complexity: O(n) or O(n log n)
-Re-solve date:
+Re-solve date: 2026-08-26
+
+----------------------------- TO BE RESOLVED -----------------------------
 
 -Problem CSES problemset Room Allocation
 Solve date: 2026-08-25
