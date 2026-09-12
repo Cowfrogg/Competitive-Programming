@@ -19,8 +19,6 @@ void fast_io() {
 const int MOD = 1e9 + 7;
 const int INF = 1e9;
 
-// BFS template
-
 int n;
 vector<bool> visited(n, false);
 vector<vector<int>> graph(n); 
