@@ -1,0 +1,1 @@
+{"name":"Local: F","url":"c:\\Users\\wanga\\cpWorkspace\\naqicpc\\F.cpp","tests":[{"id":1791054859278,"input":"4\n3\n1 5 10\n4\n11 20 31 40\n5\n7 10 11 20 29\n6\n1 11 21 30 31 40","output":"1\n2\n3\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\wanga\\cpWorkspace\\naqicpc\\F.cpp","group":"local","local":true}

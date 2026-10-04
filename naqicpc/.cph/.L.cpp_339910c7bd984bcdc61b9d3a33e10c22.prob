@@ -1,0 +1,1 @@
+{"name":"Local: L","url":"c:\\Users\\wanga\\cpWorkspace\\naqicpc\\L.cpp","tests":[{"id":1791067926406,"input":"2\n4 100\n1 2 3 4\n3 1\n1 1 1","output":"1000.0000000000\n0.3333333333"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\wanga\\cpWorkspace\\naqicpc\\L.cpp","group":"local","local":true}
