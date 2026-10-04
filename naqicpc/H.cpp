@@ -24,22 +24,31 @@ const int MAXT = 205;
 void solve(){;
     char previous;
 
+    random_device rd;
+
+    mt19937 gen(rd()); 
+
+    uniform_int_distribution<> dist(1, 2);
+
     for (int i = 1; i <= 200; i++){
         char correct;
 
-        /*
         if (i % 2 == 1){
-            cout << 'T' << endl; 
+            int num = dist(gen);
+
+            if (num == 1){
+                cout << 'T' << endl;
+            } else {
+                cout << 'F' << endl;
+            }
+            
         } else {
-            if (previous = 'T'){
+            if (previous == 'T'){
                 cout << 'F' << endl;
             } else {
                 cout << 'T' << endl;
             }
         } 
-        */
-
-        cout << 'T' << endl;
 
         cin >> correct;
         previous = correct;

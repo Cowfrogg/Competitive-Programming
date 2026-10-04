@@ -1,0 +1,1 @@
+{"name":"Local: I","url":"/Users/antoine/Developer/Competitive-Programming/naqicpc/I.cpp","tests":[{"id":1791092589473,"input":"3\n4 2\n1 2\n3 4\n4 2\n1 3\n2 4\n3 1\n3 1","output":"1\n3\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/antoine/Developer/Competitive-Programming/naqicpc/I.cpp","group":"local","local":true}
